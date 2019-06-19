@@ -42,9 +42,13 @@ async function main() {
         })
 
     const imagesToDelete = await showSelectList(imageList)
-    const deleteResult = await deleteImageList(imagesToDelete.images)
-    console.log(`${deleteResult.stdout}`);
-    console.log('Done!')
+    if (imagesToDelete.images.length < 1) {
+        console.log('No images selected');
+    } else {
+        const deleteResult = await deleteImageList(imagesToDelete.images)
+        console.log(`${deleteResult.stdout}`);
+        console.log('Done!')
+    }
 }
 
 main()
