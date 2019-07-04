@@ -12,3 +12,9 @@ I've never tried to do a Node CLI before, and wanted to give it a go. I have a t
 ## Development
 
 Just clone it and hack away! Feel free to make changes and send in PR:s if you like, and share fun!
+
+## It's a screencast!
+
+Yes, I decided to record the development work and post it on youtube (let's see if I do it on some other platform too at some point).
+
+You will be able to follow the progress [here](https://www.youtube.com/playlist?list=PLXyWZtRGm-Fu0vQyDsbuijjAjVRn9ba53)
